@@ -9,9 +9,6 @@
     ],
 
     "type": "origins:active_self",
-    "key": {
-        "key": "key.origins.secondary_active"
-    },
     "entity_action": {
         "type": "origins:and",
         "actions": [
@@ -45,12 +42,15 @@
                             ]
                         }
                     },
-                    "command_along_ray": "function death:sonic_boom"
+                    "command_along_ray": "function death-global:sonic_boom"
                 }
             }
         ]
     },
-    
+
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
     "cooldown": 450,
     "hud_render": {
         "should_render": true,

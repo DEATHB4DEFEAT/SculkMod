@@ -9,9 +9,6 @@
     ],
 
     "type": "origins:active_self",
-    "key": {
-        "key": "key.origins.secondary_active"
-    },
     "entity_action": {
         "type": "origins:and",
         "actions": [
@@ -50,7 +47,10 @@
             }
         ]
     },
-    
+
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
     "cooldown": 500,
     "hud_render": {
         "should_render": true,
