@@ -1,8 +1,8 @@
 {
-    "name": "Warden's Might",
+    "name": "§aWarden's Might",
     "description": "The sculk empowers you with more attack damage, increased health, and total knockback resistance.",
-    
     "type": "origins:multiple",
+
     "strong": {
         "type": "origins:attribute",
         "modifiers": [
@@ -27,22 +27,12 @@
         ],
         "update_health": true
     },
+
     "jump": {
         "type": "origins:modify_jump",
         "modifier": {
             "operation": "addition",
             "value": 0.2
         }
-    },
-    "speed": {
-        "type": "origins:attribute",
-        "modifiers": [
-            {
-                "attribute": "minecraft:generic.movement_speed",
-                "operation": "multiply_base",
-                "value": 1.2,
-                "name": "Speedy"
-            }
-        ]
     }
 }

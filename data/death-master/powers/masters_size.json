@@ -1,7 +1,7 @@
 {
-    "name": "Master size",
+    "name": "§6Master size",
     "description": "You are significantly bigger than normal beings and don't take fall damage.",
-    
+
     "type": "origins:multiple",
     "size": {
         "type": "origins:action_on_callback",

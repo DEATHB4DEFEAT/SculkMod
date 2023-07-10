@@ -1,5 +1,5 @@
 {
-	"name": "Strong Arms",
+	"name": "§aStrong Arms",
 	"description": "Since you are so strong, you mine faster, but use more durability.",
 
 	"type": "origins:multiple",
@@ -22,7 +22,7 @@
 		"type": "origins:modify_break_speed",
 		"modifier": {
 			"operation": "multiply_base",
-			"value": 0.5
+			"value": 1.5
 		}
 	}
 }

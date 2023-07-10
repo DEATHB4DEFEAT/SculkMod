@@ -1,5 +1,5 @@
 {
-    "name": "No Sleep",
+    "name": "§6No Sleep",
     "description": "You cannot sleep because you like the dark and nighttime. You can still set your respawn point though.",
 
     "type": "origins:prevent_sleep",

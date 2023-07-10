@@ -1,5 +1,5 @@
 {
-    "name": "Quiet",
+    "name": "§aQuiet",
     "description": "Sculk sensors don't detect your footsteps, but they still feel when you step on them.",
 
     "type": "origins:prevent_game_event",
