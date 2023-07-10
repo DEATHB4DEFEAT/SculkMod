@@ -23,6 +23,7 @@
 		"origins:carnivore",
 		"origins:extra_reach",
 		"origins:fire_immunity",
+        "death-global:darkness",
 		"death-global:no_armor",
 		"death-global:quiet",
 		"death-global:sculk_phase",
