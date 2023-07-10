@@ -1,0 +1,28 @@
+{
+	"name": "Strong Arms",
+	"description": "Since you are so strong, you mine faster, but use more durability.",
+
+	"type": "origins:multiple",
+	"extra_break_damage": {
+		"type": "origins:action_on_block_break",
+		"entity_action": {
+			"type": "origins:chance",
+			"chance": 0.5,
+			"action": {
+				"type": "origins:equipped_item_action",
+				"equipment_slot": "mainhand",
+				"action": {
+					"type": "origins:damage",
+					"amount": 1
+				}
+			}
+		}
+	},
+	"mining_speed": {
+		"type": "origins:modify_break_speed",
+		"modifier": {
+			"operation": "multiply_base",
+			"value": 0.5
+		}
+	}
+}

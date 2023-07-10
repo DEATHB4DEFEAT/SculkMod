@@ -1,0 +1,35 @@
+{
+	"name": "No Armor",
+	"description": "You are too big to wear armor. You can still wear elytra though.",
+
+	"type": "origins:multiple",
+	"armor": {
+		"type": "origins:restrict_armor",
+		"head": {
+			"type": "origins:armor_value",
+			"comparison": ">=",
+			"compare_to": 1
+		},
+		"chest": {
+			"type": "origins:armor_value",
+			"comparison": ">=",
+			"compare_to": 1
+		},
+		"legs": {
+			"type": "origins:armor_value",
+			"comparison": ">=",
+			"compare_to": 1
+		},
+		"feet": {
+			"type": "origins:armor_value",
+			"comparison": ">=",
+			"compare_to": 1
+		}
+	},
+	"base_armor": {
+		"type": "origins:attribute",
+		"attribute": "minecraft:generic.armor",
+        "value": 8,
+        "operation": "addition"
+	}
+}
