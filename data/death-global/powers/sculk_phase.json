@@ -1,6 +1,6 @@
 {
     "name": "§aSculk Phasing",
-    "description": "You are able to descend into the sculk and travel at a greater pace, while hiding from anything that might see you. Being fully submerged in sculk will regenerate your health over time.",
+    "description": "You are able to descend into the sculk and travel at a greater pace, while hiding from anything that might see you. Being in sculk will regenerate your health faster.",
     "hidden": false,
     "badges": [
         {
@@ -47,19 +47,17 @@
 
     "regeneration": {
         "type": "origins:action_over_time",
-        "interval": 30,
+        "interval": 40,
         "entity_action": {
             "type": "origins:heal",
             "amount": 1
         },
         "condition": {
-            "type": "origins:in_block_anywhere",
+            "type": "origins:in_block",
             "block_condition": {
                 "type": "origins:block",
                 "block": "minecraft:sculk"
-            },
-            "comparison": ">",
-            "compare_to": 1
+            }
         }
     },
 
