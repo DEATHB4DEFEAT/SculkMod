@@ -3,8 +3,9 @@
     "description": "Let out a powerful sonic boom to greatly damage whatever is in its path.",
     "badges": [
         {
+            "type": "origins:keybind",
             "sprite": "origins:textures/gui/badge/active.png",
-            "text": "Activate with [Secondary]."
+            "text": "Activate with %s."
         }
     ],
 

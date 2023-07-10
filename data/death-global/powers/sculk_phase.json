@@ -4,8 +4,9 @@
     "hidden": false,
     "badges": [
         {
+            "type": "origins:keybind",
             "sprite": "origins:textures/gui/badge/toggle.png",
-            "text": "Toggle with [Ternary] key."
+            "text": "Toggle with %s."
         }
     ],
     "type": "origins:multiple",

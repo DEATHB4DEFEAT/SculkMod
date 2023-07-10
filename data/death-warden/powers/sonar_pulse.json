@@ -3,8 +3,9 @@
 	"description": "You can send out a sound wave to know better of what's around you.",
     "badges": [
         {
+            "type": "origins:keybind",
             "sprite": "origins:textures/gui/badge/active.png",
-            "text": "Activate with [Primary]."
+            "text": "Activate with %s."
         }
     ],
 
