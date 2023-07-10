@@ -1,0 +1,60 @@
+{
+    "name": "Sonic Boom",
+    "description": "Let out a powerful sonic boom to greatly damage whatever is in its path.",
+    "badges": [
+        {
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "Activate with [Secondary]."
+        }
+    ],
+
+    "type": "origins:active_self",
+    "key": {
+        "key": "key.origins.secondary_active"
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.warden.sonic_charge block @a ~ ~ ~ 1"
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:raycast",
+                    "distance": 30,
+                    "block": false,
+                    "entity": true,
+                    "shape_type": "visual",
+                    "fluid_handling": "none",
+                    "bientity_action": {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:and",
+                            "actions": [
+                                {
+                                    "type": "origins:damage",
+                                    "amount": 40,
+                                    "source": {
+                                        "name": "explosion",
+                                        "bypasses_armor": true
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "command_along_ray": "function death:sonic_boom"
+                },
+                "ticks": 20
+            }
+        ]
+    },
+    
+    "cooldown": 450,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+        "bar_index": 17
+    }
+}

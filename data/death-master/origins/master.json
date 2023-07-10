@@ -1,0 +1,24 @@
+{
+	"name": "Master",
+	"description": "So, you have ascended beyond being a cave dweller and have become much stronger, what will you do now?",
+
+	"powers": [
+		"death-master:extra_sensory",
+		"death-master:hunger",
+		"death-master:masters_might",
+		"death-master:masters_size",
+		"death-master:sonic_boom",
+		"origins:carnivore",
+		"origins:ender_particles",
+		"origins:extra_reach",
+		"origins:fire_immunity",
+		"death-global:no_armor",
+		"death-global:quiet",
+		"death-global:sculk_phase",
+		"death-global:strong_arm"
+	],
+	"icon": "minecraft:sculk_shrieker",
+	"order": 5,
+	"impact": 3,
+	"unchoosable": true
+}

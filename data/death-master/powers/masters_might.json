@@ -1,0 +1,49 @@
+{
+    "name": "Master's might",
+    "description": "The sculk you come from empowers you, along with your new skills.\nMore damage,\nMore health\nKnockback resistance\nSpeed",
+    "hidden": false,
+
+    "type": "origins:multiple",
+    "strong": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "operation": "addition",
+                "value": 18,
+                "name": "More Attack Damage"
+            },
+            {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "operation": "addition",
+                "value": 1,
+                "name": "Knockback Resistance"
+            },
+            {
+                "attribute": "minecraft:generic.max_health",
+                "operation": "addition",
+                "value": 20,
+                "name": "10 More Hearts"
+            }
+        ],
+        "update_health": true
+    },
+    "jump": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.3
+        }
+    },
+    "speed": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "multiply_base",
+                "value": 1.35,
+                "name": "Speedy"
+            }
+        ]
+    }
+}
