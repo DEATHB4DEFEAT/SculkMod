@@ -21,6 +21,7 @@
             },
             {
                 "type": "origins:delay",
+                "ticks": 45,
                 "action": {
                     "type": "origins:raycast",
                     "distance": 30,
@@ -45,8 +46,7 @@
                         }
                     },
                     "command_along_ray": "function death:sonic_boom"
-                },
-                "ticks": 20
+                }
             }
         ]
     },
