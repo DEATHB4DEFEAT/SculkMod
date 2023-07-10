@@ -24,6 +24,7 @@ Selectable as an impact 2 starting origin
 - 30% less health (7 hearts)
 - Being too far from any sort of sculk will give you negative effects depending on the distance
 - The sun will burn you
++ Can spread the sculk at the cost of experience
 ```
 
 ## <img src="./images/red.png" height="16"> Warden
