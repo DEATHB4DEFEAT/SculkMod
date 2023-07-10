@@ -7,25 +7,66 @@
 
     "heartbeat": {
         "type": "origins:action_over_time",
-        "interval": 66,
+        "interval": 100,
         "entity_action": {
-            "type": "origins:choice",
-            "actions": [
-                {
-                    "element": {
-                        "type": "origins:play_sound",
-                        "sound": "minecraft:entity.warden.heartbeat",
-                        "volume": 0.5
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:on_block",
+                        "block_condition": {
+                            "type": "origins:block",
+                            "block": "minecraft:sculk"
+                        }
                     },
-                    "weight": 25
-                },
-                {
-                    "element": {
-                        "type": "origins:nothing"
+                    {
+                        "type": "origins:in_block",
+                        "block_condition": {
+                            "type": "origins:block",
+                            "block": "minecraft:sculk"
+                        }
+                    }
+                ]
+            },
+            "if_action": {
+                "type": "origins:choice",
+                "actions": [
+                    {
+                        "element": {
+                            "type": "origins:play_sound",
+                            "sound": "minecraft:entity.warden.heartbeat",
+                            "volume": 0.5
+                        },
+                        "weight": 75
                     },
-                    "weight": 75
-                }
-            ]
+                    {
+                        "element": {
+                            "type": "origins:nothing"
+                        },
+                        "weight": 25
+                    }
+                ]
+            },
+            "else_action": {
+                "type": "origins:choice",
+                "actions": [
+                    {
+                        "element": {
+                            "type": "origins:play_sound",
+                            "sound": "minecraft:entity.warden.heartbeat",
+                            "volume": 0.5
+                        },
+                        "weight": 25
+                    },
+                    {
+                        "element": {
+                            "type": "origins:nothing"
+                        },
+                        "weight": 75
+                    }
+                ]
+            }
         }
     }
 }
