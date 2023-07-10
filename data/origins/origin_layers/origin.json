@@ -1,7 +1,7 @@
 {
-  "replace": false,
-  "origins": [
-    "death-master:master",
-    "death-warden:warden"
-  ]
+    "replace": false,
+    "origins": [
+        "death-master:master",
+        "death-warden:warden"
+    ]
 }

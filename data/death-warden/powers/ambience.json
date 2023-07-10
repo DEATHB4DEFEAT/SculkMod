@@ -1,0 +1,31 @@
+{
+    "name": "§6Ambience",
+    "description": "Occasionally play ambient sounds.",
+    "hidden": true,
+
+    "type": "origins:multiple",
+
+    "heartbeat": {
+        "type": "origins:action_over_time",
+        "interval": 66,
+        "entity_action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "origins:play_sound",
+                        "sound": "minecraft:entity.warden.heartbeat",
+                        "volume": 0.5
+                    },
+                    "weight": 25
+                },
+                {
+                    "element": {
+                        "type": "origins:nothing"
+                    },
+                    "weight": 75
+                }
+            ]
+        }
+    }
+}

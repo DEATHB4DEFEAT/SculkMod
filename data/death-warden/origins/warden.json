@@ -11,6 +11,7 @@
 	],
 
 	"powers": [
+        "death-warden:ambience",
 		"death-warden:city_spawn",
 		"death-warden:dark",
 		"death-warden:sculk_blindness",
