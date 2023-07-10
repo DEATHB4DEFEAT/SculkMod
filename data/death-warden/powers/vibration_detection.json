@@ -1,0 +1,24 @@
+{
+    "name": "Vibration Detector",
+    "description": "You are able to sense the location of other entities if they aren't sneaking around.",
+    "badges": [
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Passive ability."
+        }
+    ],
+    "type": "origins:entity_glow",
+    "entity_condition": {
+        "inverted": true,
+        "type": "origins:sneaking"
+    },
+    "bientity_condition": {
+        "type": "origins:distance",
+        "comparison": "<=",
+        "compare_to": 10
+    },
+    "use_teams": false,
+    "red": 0.5,
+    "green": 0.9,
+    "blue": 0.7
+}

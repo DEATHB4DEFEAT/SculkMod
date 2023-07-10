@@ -1,0 +1,8 @@
+{
+    "name": "No Sleep",
+    "description": "You cannot sleep because you like the dark and nighttime. You can still set your respawn point though.",
+
+    "type": "origins:prevent_sleep",
+    "message": "You don't want to get rid of the outside darkness..",
+    "set_spawn_point": true
+}

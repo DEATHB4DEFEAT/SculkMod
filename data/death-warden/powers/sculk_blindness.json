@@ -1,0 +1,68 @@
+{
+	"name": "Sculk Blindness",
+	"description": "Your eyes have been replaced by some extra sensory \"ears\".\nBeing near a sculk catalyst will let it echolocate for you.",
+	"badges": [
+		{
+			"sprite": "origins:textures/gui/badge/info.png",
+			"text": "Passive ability."
+		}
+	],
+
+	"type": "origins:multiple",
+	"blindness": {
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 1,
+		"duration_per_stack": 40,
+		"tick_rate": 10,
+		"effect": {
+			"effect": "minecraft:blindness",
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": false
+		},
+		"condition": {
+			"type": "origins:or",
+			"inverted": true,
+			"conditions": [
+				{
+					"type": "origins:nbt",
+					"nbt": "{Tags: ['catalyst']}"
+				},
+				{
+					"type": "origins:nbt",
+					"nbt": "{Tags: ['sonar_pulse']}"
+				}
+			]
+		}
+	},
+	"unblindness": {
+		"type": "origins:action_over_time",
+		"interval": 5,
+		"entity_action": {
+			"type": "origins:if_else",
+			"if_action": {
+				"type": "origins:execute_command",
+				"command": "tag @s add catalyst"
+			},
+			"condition": {
+				"type": "origins:block_in_radius",
+				"radius": 10,
+				"block_condition": {
+					"type": "origins:block",
+					"block": "minecraft:sculk_catalyst"
+				}
+			},
+			"else_action": {
+				"type": "origins:execute_command",
+				"command": "tag @s remove catalyst"
+			}
+		}
+	},
+	"shader": {
+		"hidden": true,
+		"type": "origins:shader",
+		"shader": "minecraft:shaders/post/sobel.json",
+		"toggleable": true
+	}
+}

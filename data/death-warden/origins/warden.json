@@ -1,0 +1,33 @@
+{
+	"name": "Warden",
+	"description": "The warden is a powerful being that can be found in the darkest places of the deep.. He is very strong and you should be weary of his abilities.",
+
+	"upgrades": [
+		{
+			"condition": "minecraft:end/kill_dragon",
+			"origin": "death:master",
+			"announcement": "So, you have ascended beyond being a cave dweller and have become much stronger, what will you do now?"
+		}
+	],
+
+	"powers": [
+		"death-warden:city_spawn",
+		"death-warden:dark",
+		"death-warden:sculk_blindness",
+		"death-warden:sonar_pulse",
+		"death-warden:sonic_boom",
+		"death-warden:vibration_detection",
+		"death-warden:wardens_might",
+		"death-warden:wardens_size",
+		"origins:carnivore",
+		"origins:extra_reach",
+		"origins:fire_immunity",
+		"death-global:no_armor",
+		"death-global:quiet",
+		"death-global:sculk_phase",
+		"death-global:strong_arm"
+	],
+	"icon": "minecraft:sculk_sensor",
+	"order": 4,
+	"impact": 3
+}

@@ -1,0 +1,9 @@
+{
+	"name": "City Spawn",
+	"description": "As you are a warden, you spawn at the gate of the ancient city.\nYou must still be careful to not get into a fight with the other wardens.",
+
+	"type": "origins:modify_player_spawn",
+	"dimension": "minecraft:overworld",
+	"structure": "minecraft:ancient_city",
+	"spawn_strategy": "center"
+}
