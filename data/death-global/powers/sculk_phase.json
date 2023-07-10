@@ -21,7 +21,11 @@
 
     "phasing": {
         "type": "origins:phasing",
-        "render_type": "remove_blocks",
+        "render_type": "blindness",
+        "view_distance": 16,
+        "phase_down_condition": {
+            "type": "origins:sneaking"
+        },
         "block_condition": {
             "type": "origins:block",
             "block": "minecraft:sculk"
