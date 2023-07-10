@@ -68,5 +68,65 @@
                 ]
             }
         }
+    },
+
+    "anger": {
+        "type": "origins:action_over_time",
+        "interval": 120,
+        "entity_action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "element": {
+                        "type": "origins:nothing"
+                    },
+                    "weight": 60
+                },
+                {
+                    "element": {
+                        "type": "origins:if_else_list",
+                        "actions": [
+                            {
+                                "condition": {
+                                    "type": "origins:relative_health",
+                                    "comparison": "<=",
+                                    "compare_to": 0.3
+                                },
+                                "action": {
+                                    "type": "origins:play_sound",
+                                    "sound": "minecraft:entity.warden.nearby_closest",
+                                    "volume": 1.0
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:relative_health",
+                                    "comparison": "<=",
+                                    "compare_to": 0.55
+                                },
+                                "action": {
+                                    "type": "origins:play_sound",
+                                    "sound": "minecraft:entity.warden.nearby_closer",
+                                    "volume": 0.8
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:relative_health",
+                                    "comparison": "<=",
+                                    "compare_to": 0.8
+                                },
+                                "action": {
+                                    "type": "origins:play_sound",
+                                    "sound": "minecraft:entity.warden.nearby_close",
+                                    "volume": 0.6
+                                }
+                            }
+                        ]
+                    },
+                    "weight": 40
+                }
+            ]
+        }
     }
 }
