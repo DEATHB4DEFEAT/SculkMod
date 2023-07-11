@@ -14,7 +14,6 @@
         "death-warden:ambience",
 		"death-warden:city_spawn",
 		"death-warden:dark",
-		"death-warden:sculk_blindness",
 		"death-warden:sonar_pulse",
 		"death-global:sonic_boom",
 		"death-warden:wardens_might",
@@ -25,6 +24,7 @@
         "death-global:darkness",
 		"death-global:no_armor",
 		"death-global:quiet",
+		"death-global:sculk_blindness",
 		"death-global:sculk_phase",
 		"death-global:strong_arm",
 		"death-global:vibration_detection"

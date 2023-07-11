@@ -9,6 +9,7 @@
 	],
 
 	"type": "origins:multiple",
+
 	"blindness": {
 		"type": "origins:stacking_status_effect",
 		"min_stacks": 0,
@@ -36,6 +37,7 @@
 			]
 		}
 	},
+
 	"unblindness": {
 		"type": "origins:action_over_time",
 		"interval": 5,
@@ -59,6 +61,7 @@
 			}
 		}
 	},
+
 	"shader": {
 		"hidden": true,
 		"type": "origins:shader",
