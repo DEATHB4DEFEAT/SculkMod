@@ -27,7 +27,7 @@ Selectable as an impact 2 starting origin
 - Blind
 + Can dig through sculk and gain a large speed boost, while doing so you are completely invisible
 + Being within 8 blocks of a sculk catalyst will grant you the effects of the sonic pulse ability detailed below
-+ Every 20 seconds, can send a "sonic pulse" to unblind self and give night vision for 4 seconds
++ Every 10 seconds, can send a "sonic pulse" to unblind self and give night vision for 2.5 seconds
 + Show a glow effect around anything not crouching within a 10-block radius of you
 
 - Being too far from any sort of sculk will give you negative effects depending on the distance
