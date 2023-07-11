@@ -1,0 +1,70 @@
+{
+    "name": "§aFriend of the Wardens",
+    "description": "Wardens aren't agressive to you.",
+
+    "type": "origins:multiple",
+
+    "initialize": {
+        "type": "origins:action_on_callback",
+        "execute_chosen_when_orb": true,
+
+        "entity_action_chosen": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "team add WardenFriend"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join WardenFriend @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute as @e[type=warden] run team join WardenFriend"
+                }
+            ]
+        },
+
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "team leave @s"
+        },
+
+        "entity_action_respawned": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "team add WardenFriend"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join WardenFriend @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute as @e[type=warden] run team join WardenFriend"
+                }
+            ]
+        }
+    },
+
+    "repetition": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join WardenFriend @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute as @e[type=warden] run team join WardenFriend"
+                }
+            ]
+        }
+    }
+}

@@ -2,6 +2,7 @@
     "name": "Sculkling",
     "description": "No description.",
     "powers": [
+        "death-sculkling:warden_friend",
 		"origins:carnivore",
 		"origins:fire_immunity",
 		"death-global:no_armor",
