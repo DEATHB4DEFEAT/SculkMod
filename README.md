@@ -56,7 +56,7 @@ Selectable as an impact 3 starting origin
 - Carnivorous
 + Extra reach (1 block I think? Whatever the origins mod does in its default ability)
 + Immune to fire
-+ Every 40 seconds, can apply the darkness effect to entities within 32 blocks for 12 seconds
++ Every 40 seconds, can apply the darkness effect to entities within 16 blocks for 12 seconds
 - Can't wear armor (can wear cosmetics/elytra)
 + Don't activate sculk sensors unless standing on them
 + Dig through sculk and gain a 1.5x speed boost, while doing so you are completely invisible
@@ -81,7 +81,7 @@ Evolution from killing ender dragon as Warden
 = Ender particles like the Enderian origin
 + Extra reach (1 block I think? Whatever the origins mod does in its default ability)
 + Fire immunity
-+ Every 40 seconds, can apply the darkness effect to entities within 32 blocks for 24 seconds
++ Every 40 seconds, can apply the darkness effect to entities within 16 blocks for 12 seconds
 - Can't wear armor (can wear cosmetics/elytra)
 + Don't activate sculk sensors unless standing on them
 + Dig through sculk and gain a 1.5x speed boost, while doing so you are completely invisible
