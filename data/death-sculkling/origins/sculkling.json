@@ -7,6 +7,7 @@
 		"origins:carnivore",
 		"origins:fire_immunity",
 		"death-global:no_armor",
+        "death-global:no_sleep",
 		"death-global:quiet",
 		"death-global:sculk_blindness",
 		"death-global:sculk_phase",
