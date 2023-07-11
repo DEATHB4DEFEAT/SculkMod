@@ -1,0 +1,19 @@
+{
+    "name": "§cHot Sun",
+    "description": "You have never been in the sun before. You take damage when you are in the sun, even though you are immune to other fire damages.",
+    "hidden": false,
+
+    "type": "origins:action_over_time",
+    "interval": 30,
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 1,
+        "source": {
+            "name": "instant_damage"
+        },
+        "damage_type": "instant_damage"
+    },
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    }
+}
