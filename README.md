@@ -51,7 +51,6 @@ Selectable as an impact 3 starting origin
 + Full knockback resistance
 + 10 more health (5 hearts)
 + Jump with 0.2 more velocity
-+ Move 1.2x faster
 - 3 blocks tall
 + No fall damage (if sneaking)
 - Carnivorous
@@ -76,7 +75,6 @@ Evolution from killing ender dragon as Warden
 + Full knockback resistance
 + 20 more health (20 hearts)
 + Jump with 0.2 more velocity
-+ Move 1.35x faster
 - 3.5 blocks tall
 + Every 25 seconds, can fire a sonic boom that reaches through blocks with a maximum range of 25 to hit a single entity and deal 20 explosion damage, ignoring armor
 - Carnivorous
