@@ -23,7 +23,7 @@
                         "type": "origins:apply_effect",
                         "effect": {
                             "effect": "minecraft:darkness",
-                            "duration": 480,
+                            "duration": 240,
                             "amplifier": 0,
                             "show_particles": true
                         }
