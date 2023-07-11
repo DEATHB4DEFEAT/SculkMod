@@ -8,6 +8,7 @@
         "death-sculkling:warden_friend",
 		"origins:carnivore",
 		"origins:fire_immunity",
+		"death-global:city_spawn",
 		"death-global:no_armor",
         "death-global:no_sleep",
 		"death-global:quiet",

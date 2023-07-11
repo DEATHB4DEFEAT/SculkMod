@@ -12,13 +12,13 @@
 
 	"powers": [
         "death-warden:ambience",
-		"death-warden:city_spawn",
 		"death-global:sonic_boom",
 		"death-warden:wardens_might",
 		"death-warden:wardens_size",
 		"origins:carnivore",
 		"origins:extra_reach",
 		"origins:fire_immunity",
+		"death-global:city_spawn",
         "death-global:darkness",
 		"death-global:no_armor",
         "death-global:no_sleep",
