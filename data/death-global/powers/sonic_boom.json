@@ -22,7 +22,7 @@
                 "ticks": 45,
                 "action": {
                     "type": "origins:raycast",
-                    "distance": 20,
+                    "distance": 25,
                     "block": false,
                     "entity": true,
                     "shape_type": "visual",

@@ -7,7 +7,7 @@
 		"death-master:hunger",
 		"death-master:masters_might",
 		"death-master:masters_size",
-		"death-master:sonic_boom",
+		"death-global:sonic_boom",
 		"origins:carnivore",
 		"origins:ender_particles",
 		"origins:extra_reach",

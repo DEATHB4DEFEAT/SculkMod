@@ -38,7 +38,7 @@ Selectable as an impact 3 starting origin
 - Blind
 + Being within 10 blocks of a sculk catalyst will grant you the effects of the sonic pulse ability detailed below
 + Every 10 seconds, can send a "sonic pulse" to unblind self and give night vision for 2.5 seconds
-+ Every 25 seconds, can fire a sonic boom that reaches through blocks with a maximum range of 20 to hit a single entity and deal 20 explosion damage, ignoring armor
++ Every 25 seconds, can fire a sonic boom that reaches through blocks with a maximum range of 25 to hit a single entity and deal 20 explosion damage, ignoring armor
 + Show a glow effect around anything not crouching within a 10-block radius
 + 10 more attack damage
 + Full knockback resistance
@@ -71,7 +71,7 @@ Evolution from killing ender dragon as Warden
 + Jump 0.3 higher (??)
 + Move 1.35x faster
 - 3.5 blocks tall
-+ Every 22.5 seconds, can fire a sonic boom that reaches through blocks with a maximum range of 30 to hit a single entity and deal 40 explosion damage, ignoring armor
++ Every 25 seconds, can fire a sonic boom that reaches through blocks with a maximum range of 25 to hit a single entity and deal 20 explosion damage, ignoring armor
 - Carnivorous
 = Ender particles like the Enderian origin
 + Extra reach (1 block I think? Whatever the origins mod does in its default ability)

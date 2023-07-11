@@ -16,7 +16,7 @@
 		"death-warden:dark",
 		"death-warden:sculk_blindness",
 		"death-warden:sonar_pulse",
-		"death-warden:sonic_boom",
+		"death-global:sonic_boom",
 		"death-warden:vibration_detection",
 		"death-warden:wardens_might",
 		"death-warden:wardens_size",
