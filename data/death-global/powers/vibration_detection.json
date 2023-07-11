@@ -7,6 +7,7 @@
             "text": "Passive ability."
         }
     ],
+
     "type": "origins:entity_glow",
     "entity_condition": {
         "inverted": true,

@@ -17,7 +17,6 @@
 		"death-warden:sculk_blindness",
 		"death-warden:sonar_pulse",
 		"death-global:sonic_boom",
-		"death-warden:vibration_detection",
 		"death-warden:wardens_might",
 		"death-warden:wardens_size",
 		"origins:carnivore",
@@ -27,7 +26,8 @@
 		"death-global:no_armor",
 		"death-global:quiet",
 		"death-global:sculk_phase",
-		"death-global:strong_arm"
+		"death-global:strong_arm",
+		"death-global:vibration_detection"
 	],
 	"icon": "minecraft:sculk_sensor",
 	"order": 4,
