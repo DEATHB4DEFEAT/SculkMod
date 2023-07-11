@@ -25,8 +25,9 @@ Selectable as an impact 2 starting origin
 - Can't sleep, but can set spawn
 + Don't activate sculk sensors unless standing on them
 - Blind
-+ Can dig through sculk and gain a large speed boost, while doing so you are completely invisible
-+ Being within 8 blocks of a sculk catalyst will grant you the effects of the sonic pulse ability detailed below
++ Dig through sculk and gain a 1.5x speed boost, while doing so you are completely invisible
++ While inside a sculk block you regenerate 1 heart every 2 seconds
++ Being within 8 blocks of a sculk sensor will grant you the effects of the sonic pulse ability detailed below
 + Every 10 seconds, can send a "sonic pulse" to unblind self and give night vision for 2.5 seconds
 + Show a glow effect around anything not crouching within a 10-block radius of you
 
@@ -42,25 +43,25 @@ Selectable as an impact 3 starting origin
 = Spawn in an ancient city
 - Can't sleep, but can set spawn
 - Blind
-+ Being within 10 blocks of a sculk catalyst will grant you the effects of the sonic pulse ability detailed below
++ Being within 10 blocks of a sculk sensor will grant you the effects of the sonic pulse ability detailed below
 + Every 10 seconds, can send a "sonic pulse" to unblind self and give night vision for 2.5 seconds
 + Every 25 seconds, can fire a sonic boom that reaches through blocks with a maximum range of 25 to hit a single entity and deal 20 explosion damage, ignoring armor
 + Show a glow effect around anything not crouching within a 10-block radius
-+ 10 more attack damage
++ 1.5x attack damage
 + Full knockback resistance
 + 10 more health (5 hearts)
-+ Jump 0.2 higher (??)
++ Jump with 0.2 more velocity
 + Move 1.2x faster
 - 3 blocks tall
 + No fall damage (if sneaking)
 - Carnivorous
 + Extra reach (1 block I think? Whatever the origins mod does in its default ability)
 + Immune to fire
-+ Every 40 seconds, can apply the darkness effect to entities within 32 blocks for 24 seconds
++ Every 40 seconds, can apply the darkness effect to entities within 32 blocks for 12 seconds
 - Can't wear armor (can wear cosmetics/elytra)
 + Don't activate sculk sensors unless standing on them
 + Dig through sculk and gain a 1.5x speed boost, while doing so you are completely invisible
-+ While inside a sculk block you regenerate 1 heart every 1.5 seconds
++ While inside a sculk block you regenerate 1 heart every 2 seconds
 = Mine faster, use 1.5x durability
 ```
 
@@ -71,10 +72,10 @@ Evolution from killing ender dragon as Warden
 ```diff
 + Show a glow effect around anything not crouching within a 25-block radius
 - Get constant hunger effect when not in sunlight (will probably remove, no justification, need something else negative)
-+ 18 more attack damage
++ 2x attack damage
 + Full knockback resistance
 + 20 more health (20 hearts)
-+ Jump 0.3 higher (??)
++ Jump with 0.2 more velocity
 + Move 1.35x faster
 - 3.5 blocks tall
 + Every 25 seconds, can fire a sonic boom that reaches through blocks with a maximum range of 25 to hit a single entity and deal 20 explosion damage, ignoring armor
