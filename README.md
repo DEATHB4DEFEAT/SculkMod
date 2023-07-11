@@ -73,7 +73,7 @@ Evolution from killing ender dragon as Warden
 - Get constant hunger effect when not in sunlight (will probably remove, no justification, need something else negative)
 + 2x attack damage
 + Full knockback resistance
-+ 20 more health (20 hearts)
++ 20 more health (10 hearts)
 + Jump with 0.2 more velocity
 - 3.5 blocks tall
 + Every 25 seconds, can fire a sonic boom that reaches through blocks with a maximum range of 25 to hit a single entity and deal 20 explosion damage, ignoring armor
