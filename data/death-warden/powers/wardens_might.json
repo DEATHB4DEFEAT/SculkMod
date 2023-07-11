@@ -8,8 +8,8 @@
         "modifiers": [
             {
                 "attribute": "minecraft:generic.attack_damage",
-                "operation": "addition",
-                "value": 10,
+                "operation": "multiply_base",
+                "value": 1.5,
                 "name": "More Attack Damage"
             },
             {
