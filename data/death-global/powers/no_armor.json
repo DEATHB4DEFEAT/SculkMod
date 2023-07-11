@@ -1,6 +1,6 @@
 {
 	"name": "§cNo Armor",
-	"description": "You are too big to wear armor. You can still wear elytra though.",
+	"description": "You are unable to wear armor. You can still wear elytra though.",
 
 	"type": "origins:multiple",
 	"armor": {
