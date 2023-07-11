@@ -1,0 +1,16 @@
+{
+    "name": "Sculkling",
+    "description": "No description.",
+    "powers": [
+		"origins:carnivore",
+		"origins:fire_immunity",
+		"death-global:no_armor",
+		"death-global:quiet",
+		"death-global:sculk_blindness",
+		"death-global:sculk_phase",
+        "death-global:vibration_detection"
+    ],
+    "icon": "minecraft:sculk",
+    "order": 4,
+    "impact": 2
+}

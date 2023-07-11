@@ -7,7 +7,7 @@ I plan on adding a third origin, the Sculkling, which will be a weaker impact tw
 
 # Origins
 
-## <img src="./images/yellow.png" height="16" /> Sculkling (just an idea)
+## <img src="./images/yellow.png" height="16" /> Sculkling
 
 Selectable as an impact 2 starting origin
 
@@ -15,7 +15,7 @@ Selectable as an impact 2 starting origin
 = Spawn in an ancient city
 - Can't sleep, but can set spawn
 - Blind
-+ Show a glow effect around anything not crouching within a 10-block radius of you, and a 20-block radius around every catalyst within 16 blocks of you
++ Show a glow effect around anything not crouching within a 10-block radius of you
 + Being within 8 blocks of a sculk catalyst will grant you the effects of the sonic pulse ability detailed below
 + Every 20 seconds, can send a "sonic pulse" to unblind self and give night vision for 4 seconds
 + Can dig through sculk and gain a large speed boost, while doing so you are completely invisible
