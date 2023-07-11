@@ -1,6 +1,8 @@
 {
-  "pack": {
+    "name": "Sculkmod",
     "pack_format": 10,
-    "description": "Adds an origin meant for the deep dark."
-  }
+    "authors": [
+        "DEATHB4DEFEAT"
+    ],
+    "description": "Adds some Origins related to the deep dark."
 }
