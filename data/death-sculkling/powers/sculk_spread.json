@@ -1,0 +1,79 @@
+{
+    "name": "§aSculk Spreader",
+    "description": "You can consume gathered experience to spread the sculk.",
+    "hidden": false,
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "Activate with %s."
+        }
+    ],
+
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:add_xp",
+                "levels": -1
+            },
+            {
+                "type": "origins:choice",
+                "actions": [
+                    {
+                        "weight": 50,
+                        "element": {
+                            "type": "origins:execute_command",
+                            "command": "give @s sculk"
+                        }
+                    },
+                    {
+                        "weight": 25,
+                        "element": {
+                            "type": "origins:execute_command",
+                            "command": "give @s sculk_vein"
+                        }
+                    },
+                    {
+                        "weight": 15,
+                        "element": {
+                            "type": "origins:execute_command",
+                            "command": "give @s sculk_sensor"
+                        }
+                    },
+                    {
+                        "weight": 6,
+                        "element": {
+                            "type": "origins:execute_command",
+                            "command": "give @s sculk_shrieker"
+                        }
+                    },
+                    {
+                        "weight": 4,
+                        "element": {
+                            "type": "origins:execute_command",
+                            "command": "give @s sculk_catalyst"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "block.sculk_catalyst.bloom",
+                "volume": 1,
+                "pitch": 1
+            }
+        ]
+    },
+
+    "condition": {
+        "type": "origins:xp_levels",
+        "comparison": ">",
+        "compare_to": 0
+    },
+
+    "key": {
+        "key": "key.origins.secondary_active"
+    }
+}
