@@ -9,6 +9,7 @@
 		"death-global:quiet",
 		"death-global:sculk_blindness",
 		"death-global:sculk_phase",
+        "death-global:sonar_pulse",
         "death-global:vibration_detection"
     ],
     "icon": "minecraft:sculk",
