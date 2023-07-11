@@ -1,6 +1,6 @@
 {
 	"name": "§cSculk Blindness",
-	"description": "Your eyes have been replaced by some extra sensory \"ears\".\nBeing near a sculk catalyst will let it echolocate for you.",
+	"description": "Your eyes have been replaced by some extra sensory \"ears\".\nBeing near a sculk sensor will let it echolocate for you.",
 	"badges": [
 		{
 			"sprite": "origins:textures/gui/badge/info.png",
@@ -52,7 +52,7 @@
 				"radius": 10,
 				"block_condition": {
 					"type": "origins:block",
-					"block": "minecraft:sculk_catalyst"
+					"block": "minecraft:sculk_sensor"
 				}
 			},
 			"else_action": {
